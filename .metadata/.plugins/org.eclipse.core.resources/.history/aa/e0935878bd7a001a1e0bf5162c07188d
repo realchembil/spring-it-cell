@@ -1,0 +1,5 @@
+package com.devapps.domain;
+
+public class Member {
+
+}
