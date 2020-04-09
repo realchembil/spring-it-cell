@@ -1,0 +1,91 @@
+!SESSION 2020-04-09 19:38:55.322 -----------------------------------------------
+eclipse.buildId=4.5.1.202001211336-RELEASE
+java.version=13.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/surjithsudhakaran/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data /Users/surjithsudhakaran/Documents/tutorials/spring-boot/itcell-onboarding/spring-it-cell -product org.springframework.boot.ide.branding.sts4 -keyring /Users/surjithsudhakaran/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2020-04-09 19:39:04.046
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2020-04-09 19:39:06.654
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-04-09 19:39:06.654
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@73c09a98,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6f2bf657,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2020-04-09 19:41:35.187
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-09 19:42:43.307
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-09 19:42:43.309
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6193a9e2[org.springframework.tooling.boot.ls:1.15.0.202001210741(id=625)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-09 19:42:43.311
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-09 19:42:43.575
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-09 19:42:48.785
+!MESSAGE Boot LS startup time from start to initialized: 5391ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-09 19:42:48.895
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.AAcKIlhDisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-09 19:42:48.906
+!MESSAGE subscribing to classpath changes: sts4.classpath.AAcKIlhD isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-09 19:42:48.927
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-09 19:42:48.941
+!MESSAGE subsribers = {sts4.classpath.AAcKIlhD=Send Classpath Notifications(138)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-09 19:42:48.941
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-09 19:42:48.941
+!MESSAGE project spring-it-cell ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-09 19:42:48.942
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-09 19:42:48.942
+!MESSAGE Preparing classpath changed notification spring-it-cell
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-09 19:42:48.942
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.AAcKIlhD => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-09 19:42:48.943
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-09 19:42:48.948
+!MESSAGE classpath=98 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-09 19:42:48.950
+!MESSAGE buffering callback sts4.classpath.AAcKIlhD spring-it-cell false 98
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-09 19:42:48.951
+!MESSAGE executing callback sts4.classpath.AAcKIlhD 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-09 19:42:49.206
+!MESSAGE executing callback sts4.classpath.AAcKIlhD SUCCESS [done]
